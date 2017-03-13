@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/dayview"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+    android:textSize="25dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/countview"
+        android:layout_alignParentRight="true"/>
+
+    <at.markushi.ui.CircleButton
+        android:layout_width="26dp"
+        android:id="@+id/addbtn"
+        android:layout_height="26dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginBottom="10dp"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/plus"
+        app:cb_color="#99CC00"
+        app:cb_pressedRingWidth="8dip" />
+</RelativeLayout>

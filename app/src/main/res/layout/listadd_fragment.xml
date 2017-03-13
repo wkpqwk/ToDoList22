@@ -1,0 +1,25 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#FFFFFF"
+    android:id="@+id/container1">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/planedit"
+        android:textSize="20dp"
+        android:focusable="true"
+        android:layout_marginTop="5dp"
+        android:hint="원하는 작업..."/>
+    <at.markushi.ui.CircleButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/plus"
+        android:id="@+id/planplus"
+        app:cb_color="#FFFFFF"
+        android:layout_alignParentRight="true"
+        app:cb_pressedRingWidth="8dip" />
+</RelativeLayout>
